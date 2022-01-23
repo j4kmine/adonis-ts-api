@@ -1,0 +1,11 @@
+npm init adonis-ts-app adonis-api-live
+node ace make:controller HomeController
+npm i @adonisjs/lucid for migration and database
+node ace configure @adonisjs/lucid
+
+ node ace make:model Todo
+ node ace make:migration Todo
+ node ace migration run
+ npm i @adonisjs/auth
+ node ace configure @adonisjs/auth
+ npm i phc-argon2

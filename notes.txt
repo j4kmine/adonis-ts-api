@@ -9,3 +9,9 @@ node ace configure @adonisjs/lucid
  npm i @adonisjs/auth
  node ace configure @adonisjs/auth
  npm i phc-argon2
+ 
+ 
+ 
+set up db migration
+npm i @adonisjs/lucid
+node ace configure @adonisjs/lucid
